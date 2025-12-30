@@ -1,7 +1,7 @@
 "use client"
 
 import { Card } from "@/components/ui/card"
-import { CheckIcon,CheckIcon,CheckIcon, Check } from "lucide-react"
+import { Check } from "lucide-react"
 import { useLanguage } from "@/lib/i18n/language-context"
 import { translations } from "@/lib/i18n/translations"
 
@@ -19,28 +19,24 @@ export function Comparison() {
           {/* Global Giants */}
           <Card className="p-8 bg-[rgba(8,22,28,1)]">
             <h3 className="text-xl font-semibold mb-6 text-cyan-400">{t.comparison.globalGiants.title}</h3>
-            
 
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <CheckIcon className="h-5 w-5 mt-0.5 flex-shrink-0 text-cyan-400" />
+                <Check className="h-5 w-5 mt-0.5 flex-shrink-0 text-cyan-400" />
                 <span className="text-muted-foreground">{t.comparison.globalGiants.point1}</span>
               </li>
-              
             </ul>
           </Card>
 
           {/* Local Agencies */}
           <Card className="p-8 bg-[rgba(0,186,219,0.05)] border-0 border-cyan-500">
             <h3 className="text-xl font-semibold mb-6 text-cyan-400">{t.comparison.localAgencies.title}</h3>
-            
 
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <CheckIcon className="h-5 w-5 mt-0.5 flex-shrink-0 text-cyan-400" />
+                <Check className="h-5 w-5 mt-0.5 flex-shrink-0 text-cyan-400" />
                 <span className="text-muted-foreground">{t.comparison.localAgencies.point1}</span>
               </li>
-              
             </ul>
           </Card>
 
@@ -49,7 +45,6 @@ export function Comparison() {
             <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-500/10 rounded-full blur-3xl" />
             <div className="relative">
               <h3 className="text-xl font-semibold mb-6 text-cyan-400">{t.comparison.tamkeen.title}</h3>
-              
 
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
