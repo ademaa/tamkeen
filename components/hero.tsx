@@ -7,11 +7,9 @@ import { Input } from "@/components/ui/input"
 import { useState } from "react"
 import { addToWaitlist } from "@/app/actions/waitlist"
 import { useLanguage } from "@/lib/i18n/language-context"
-import { translations } from "@/lib/i18n/translations"
 
 export function Hero() {
-  const { language } = useLanguage()
-  const t = translations[language]
+  const { language, t } = useLanguage()
 
   const [email, setEmail] = useState("")
   const [isLoading, setIsLoading] = useState(false)
@@ -37,14 +35,22 @@ export function Hero() {
   return (
     <section className="relative px-4 pt-32 pb-20 md:pt-40 md:pb-32">
       <div className="container max-w-5xl mx-auto">
-        <h1 className="text-5xl md:text-7xl font-bold text-center mb-6 tracking-tight leading-[1.1] text-balance">
-          {t.hero.title}
-          {language === "ar" ? "" : " "}
-          {language === "ar" && <br />}
-          <span className="bg-gradient-to-br from-cyan-400 via-cyan-500 to-cyan-600 bg-clip-text text-transparent">
-            {t.hero.titleGradient}
-          </span>
-        </h1>
+        {language === "ar" ? (
+          <h1 className="text-5xl md:text-7xl font-bold text-center mb-6 tracking-tight leading-[1.1] text-balance">
+            {t.hero.title}
+            <br />
+            <span className="bg-gradient-to-br from-cyan-400 via-cyan-500 to-cyan-600 bg-clip-text text-transparent">
+              {t.hero.titleGradient}
+            </span>
+          </h1>
+        ) : (
+          <h1 className="text-5xl md:text-7xl font-bold text-center mb-6 tracking-tight leading-[1.1] text-balance">
+            {t.hero.title}{" "}
+            <span className="bg-gradient-to-br from-cyan-400 via-cyan-500 to-cyan-600 bg-clip-text text-transparent">
+              {t.hero.titleGradient}
+            </span>
+          </h1>
+        )}
 
         <p className="text-xl md:text-2xl text-center text-muted-foreground mb-12 max-w-3xl mx-auto text-pretty">
           {t.hero.subtitle}

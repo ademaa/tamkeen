@@ -10,21 +10,21 @@ export const translations = {
     },
     // Hero Section
     hero: {
-      title: "عملك، على الإنترنت.",
-      titleGradient: "بذكاء اصطناعي، مصمم للشرق الأوسط.",
+      title: "فكرتك، موقعك..",
+      titleGradient: " بذكاء اصطناعي يفهم لغتك وسوقك",
       subtitle:
-        "توقف عن المعاناة مع الأدوات العالمية التي تكسر تصميم اللغة العربية. ابنِ موقعًا احترافيًا متوافقًا مع اللغة العربية في 60 ثانية - ابدأ بقالب ذكي أو اكتب رؤيتك فقط.",
+        "تمكين هو أول صانع مواقع بالذكاء الاصطناعي مصمم خصيصاً للمنطقة العربية. لا مزيد من التصاميم المكسورة أو الترجمات الضعيفة.",
       emailPlaceholder: "أدخل بريدك الإلكتروني",
-      submitButton: "انضم إلينا الآن",
+      submitButton: "كن أول من يختبر قوة تمكين",
       submitting: "جاري الإرسال...",
       successMessage: "أنت في القائمة! تحقق من بريدك الإلكتروني قريبًا.",
       errorMessage: "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
-      limitedSpots: "أماكن محدودة متاحة للنسخة التجريبية. احصل على 14 يومًا مجانًا + خصم.",
+      limitedSpots: "انضم لقائمة الانتظار واحصل على خصم 20% عند الإطلاق الرسمي.",
     },
     // Chat Demo
     demo: {
       title: "مثال لإنشاء الموقع",
-      subtitle: "فقط صِف ما تحتاجه. تمكين يُنشئه على الفور.",
+      subtitle: "أهلاً! صف لي مشروعك وسأقوم ببناء الموقع لك فوراً...",
       userMessage: "أريد موقع عود فاخر بألوان أسود وذهبي.",
       aiStatus: "تم إنشاء الموقع",
       aiDescription: "تصميم أنيق باللونين الأسود والذهبي مع دعم RTL. جاهز للتخصيص بأوامر نصية.",
@@ -32,18 +32,20 @@ export const translations = {
     },
     // Comparison Section
     comparison: {
-      title: "لماذا لا يزال بناء موقع عربي صعبًا جدًا؟",
-      subtitle: "قارن خياراتك وانظر لماذا تمكين هو الحل الوحيد المبني للعربية من الأساس.",
+      title: "لماذا يختار المحترفون تمكين؟",
+      subtitle: "حلول ذكية مصممة خصيصاً لاحتياجات السوق المحلي",
       globalGiants: {
-        title: "العمالقة العالميون",
+        title: "دعم كامل للغة العربية (RTL)",
         subtitle: "(المنصات الاخري)",
-        point1: "تخطيطات RTL معطلة",
+        point1:
+          "انسَ مشاكل الخطوط المكسورة أو القوائم المقلوبة. قوالبنا مبنية من الصفر لتدعم اتجاه الكتابة من اليمين لليسار.",
         point2: "صور غربية عامة",
       },
       localAgencies: {
-        title: "الوكالات المحلية",
+        title: "تعديل بالدردشة",
         subtitle: "(وكالات التسويق)",
-        point1: "مكلفة ($1,000+)",
+        point1:
+          "هل تريد تغيير الألوان؟ أو إضافة قسم جديد؟ فقط اطلب من الذكاء الاصطناعي وسيتم التنفيذ فوراً دون كتابة سطر كود واحد.",
         point2: "تسليم بطيء (أسابيع)",
       },
       tamkeen: {
@@ -57,7 +59,7 @@ export const translations = {
     },
     // Features Section
     features: {
-      title: "كيف يعمل",
+      title: "كيف يعمل؟",
       subtitle: "نموذج القوالب: اختر طريقك لموقع عربي مثالي",
       step1: {
         badge: "الخطوة 1",
@@ -125,75 +127,77 @@ export const translations = {
     },
     // Hero Section
     hero: {
-      title: "Your Business, Online.",
-      titleGradient: "Fluent in AI, Native to MENA.",
+      title: "Your Idea, Your Website..",
+      titleGradient: "With AI That Speaks Your Language & Market",
       subtitle:
-        "Stop wrestling with global tools that break your Arabic layout. Build a professional, RTL-perfect website in 60 seconds—start with a smart template or just type your vision.",
+        "Tamkeen is the first AI website builder designed specifically for the Arab region. No more broken designs or weak translations.",
       emailPlaceholder: "Enter your email address",
-      submitButton: "Join Us Now",
-      submitting: "Joining...",
+      submitButton: "Be the first to experience Tamkeen's power",
+      submitting: "Submitting...",
       successMessage: "You're on the list! Check your email soon.",
       errorMessage: "Something went wrong. Please try again.",
-      limitedSpots: "Limited spots available for the Beta. Get 14 days free + a discount.",
+      limitedSpots: "Join the waitlist and get 20% off at official launch.",
     },
     // Chat Demo
     demo: {
-      title: "See It In Action",
-      subtitle: "Just describe what you need. Tamkeen creates it instantly.",
-      userMessage: "I need a luxury oud store with a black and gold theme.",
+      title: "Website Creation Example",
+      subtitle: "Hello! Describe your project and I'll build the website for you instantly...",
+      userMessage: "I want a luxury oud website with black and gold colors.",
       aiStatus: "Website created",
       aiDescription: "Elegant black and gold design with RTL support. Ready to customize with text commands.",
-      logoText: "LUXURY OUD",
+      logoText: "Luxury Oud",
     },
     // Comparison Section
     comparison: {
-      title: "Why is building an Arabic website still so hard?",
-      subtitle: "Compare your options and see why Tamkeen is the only solution built for Arabic from the ground up.",
+      title: "Why Professionals Choose Tamkeen?",
+      subtitle: "Smart solutions designed specifically for local market needs",
       globalGiants: {
-        title: "Global Giants",
-        subtitle: "(Wix/Squarespace)",
-        point1: "Broken RTL layouts",
-        point2: "Generic Western photos",
+        title: "Full Arabic Language Support (RTL)",
+        subtitle: "(Other Platforms)",
+        point1:
+          "Forget broken fonts or flipped menus. Our templates are built from scratch to support right-to-left writing direction.",
+        point2: "Generic Western images",
       },
       localAgencies: {
-        title: "Local Agencies",
+        title: "Edit with Chat",
         subtitle: "(Marketing Agencies)",
-        point1: "Expensive ($1,000+)",
-        point2: "Slow turnaround (Weeks)",
+        point1:
+          "Want to change colors? Or add a new section? Just ask the AI and it'll be done instantly without writing a single line of code.",
+        point2: "Slow delivery (Weeks)",
       },
       tamkeen: {
         title: "Tamkeen",
-        subtitle: "(Our Solution)",
+        subtitle: "(Our Platform)",
         point1Title: "Native RTL:",
-        point1: "Built for Arabic from code-up",
+        point1: "Built for Arabic from the code",
         point2Title: "Hybrid AI:",
-        point2: "Chat to build or use pro templates",
+        point2: "Chat to build or use professional templates",
       },
     },
     // Features Section
     features: {
-      title: "How It Works",
-      subtitle: "The Hybrid Model: Choose your path to a perfect Arabic website",
+      title: "How Does It Work?",
+      subtitle: "Template Model: Choose your path to a perfect Arabic website",
       step1: {
         badge: "Step 1",
         title: "Choose Your Path",
         optionA: "Option A:",
         optionAText:
-          'The Magic Prompt - Start with a blank canvas. Type: "I need a luxury oud store with a black and gold theme."',
+          'Magic Message - Start with a blank canvas. Type: "I need a luxury oud store with black and gold colors."',
         optionB: "Option B:",
-        optionBText: 'The Smart Template - Pick from 50+ localized designs like "Riyadh Cafe" or "Dubai Consultant."',
+        optionBText: 'Smart Template - Choose from 50+ local designs like "Riyadh Cafe" or "Dubai Consultant."',
       },
       step2: {
         badge: "Step 2",
         title: "Customize with Chat",
         question1: "Don't like the color? Just type:",
         answer1: '"Make the buttons emerald green."',
-        question2: "Need better copy? Type:",
+        question2: "Need better text? Type:",
         answer2: '"Rewrite this headline to be more formal."',
       },
       step3: {
         badge: "Step 3",
-        title: "Launch & Sell",
+        title: "Launch Your Project",
         point1: "Connect your domain.",
         point2: "Go live in minutes.",
       },
@@ -206,24 +210,24 @@ export const translations = {
         name: "Starter",
         price: "$15",
         period: "/month",
-        description: "Ideal for portfolios & services",
+        description: "Perfect for resumes and services",
         feature1: "AI Website Builder",
         feature2: "Native RTL Support",
         feature3: "Smart Templates",
         feature4: "Mobile Responsive",
-        cta: "Get Started",
+        cta: "Start Now",
       },
       pro: {
         name: "Pro",
         price: "$35",
         period: "/month",
         description: "Full E-commerce & AI Power",
-        badge: "POPULAR",
+        badge: "MOST POPULAR",
         feature1: "Everything in Starter",
         feature2: "Advanced AI Features",
         feature3: "Priority Support",
         feature4: "Analytics Dashboard",
-        cta: "Get Started",
+        cta: "Start Now",
       },
       annualSave: "Save 15% with Annual Billing",
     },
